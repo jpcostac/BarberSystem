@@ -1,4 +1,4 @@
-const database = require('../config/db');
+const database = require('../database');
 
 module.exports = {
     // Criar um novo serviço

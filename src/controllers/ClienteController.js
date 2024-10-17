@@ -46,7 +46,7 @@ module.exports={
 
         if(nome!="" && telefone!="" && email!= ""){
             await clienteService.updateCliente(
-                nome, telefone, email
+                id, nome, telefone, email
             );
             json.result= `Cliente ${nome} editado com sucesso!`
             response.status(200).json(json);

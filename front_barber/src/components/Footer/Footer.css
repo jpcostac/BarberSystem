@@ -1,0 +1,40 @@
+.footer-container {
+  /* Define a cor de fundo e do texto */
+  background-color: #282c34;
+  color: #fff;
+  
+  /* Garante que ocupe a largura total */
+  width: 100%;
+  
+  /* Centraliza o conteúdo e adiciona padding */
+  padding: 20px 30px;
+  text-align: center;
+  
+  /* Estilos de posição para garantir que fique no final da página, se o conteúdo for curto */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  display: block;
+  justify-content: space-between; /* Distribui as informações nas laterais */
+  align-items: center;
+  max-width: 1200px; /* Limita a largura do conteúdo (opcional) */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+.footer-developer {
+  font-size: 0.9em;
+  color: #61dafb; /* Cor de destaque para o desenvolvedor */
+}
+
+.footer-copyright {
+  font-size: 0.9em;
+}
+
+/* * IMPORTANTE: Para que o rodapé fixo funcione corretamente, 
+ * você precisará garantir que o corpo do site tenha uma margem inferior 
+ * (margin-bottom) igual ou superior à altura do rodapé, para que o conteúdo 
+ * não seja escondido por ele. Vamos corrigir isso no App.css no próximo passo.
+ */

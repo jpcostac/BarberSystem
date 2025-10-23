@@ -1,0 +1,8 @@
+.main-content {
+  /* Mantenha este padding para o conteúdo não ficar colado nas laterais */
+  padding: 20px; 
+  
+  /* Aumente o margin-bottom para o rodapé */
+  /* Use um valor generoso (ex: 80px) para garantir que o conteúdo não seja escondido */
+  margin-bottom: 80px; 
+}

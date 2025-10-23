@@ -1,0 +1,61 @@
+.sobre-container {
+  /* Espaçamento geral do bloco */
+  padding: 40px 20px;
+  background-color: #ffffff; /* Fundo claro para contraste */
+  max-width: 1000px;
+  margin: 0 auto; /* Centraliza o conteúdo na tela */
+}
+
+.sobre-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 2em;
+}
+
+.sobre-content {
+    text-align: center;
+  margin-bottom: 40px;
+}
+
+.mission-statement {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #61dafb; /* Cor de destaque (a mesma do login/logo) */
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Seção de Prêmios */
+.awards-section {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-left: 5px solid #282c34; /* Uma barra lateral de cor */
+  margin-top: 25px;
+}
+
+.awards-section h3 {
+  color: #282c34;
+  margin-bottom: 10px;
+}
+
+.awards-section ul {
+  list-style-type: none; /* Remove bolinhas */
+  padding: 0;
+}
+
+.awards-section li {
+  padding: 5px 0;
+}
+
+/* Seção de Localização */
+.location-section {
+  padding: 20px;
+  border-top: 1px dashed #ccc;
+  text-align: center;
+}
+
+.location-section address {
+  font-style: normal; /* Remove itálico padrão do address */
+  line-height: 1.6;
+}
